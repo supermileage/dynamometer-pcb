@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name "Raspberry_Pi_Pico_W_Kicad_Files-main")(type "KiCad")(uri "${KIPRJMOD}/data/Raspberry_Pi_Pico_W_Kicad_Files-main.pretty")(options "")(descr ""))
+  (lib (name "custom_connectors")(type "KiCad")(uri "${KIPRJMOD}/data/custom_connectors")(options "")(descr ""))
+  (lib (name "Rotary_Encoder")(type "KiCad")(uri "${KIPRJMOD}/data/Rotary_Encoder.pretty")(options "")(descr ""))
 )
