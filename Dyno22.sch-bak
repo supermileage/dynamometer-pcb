@@ -30,7 +30,7 @@ U 1 1 635B620B
 P 6650 3400
 F 0 "J2" H 6678 3376 50  0000 L CNN
 F 1 "Power" H 6678 3285 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-02A1_2x01_P4.20mm_Horizontal" H 6650 3400 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal" H 6650 3400 50  0001 C CNN
 F 3 "~" H 6650 3400 50  0001 C CNN
 	1    6650 3400
 	1    0    0    -1  
@@ -79,15 +79,15 @@ F 3 "~" H 5400 850 50  0001 C CNN
 	1    5400 850 
 	1    0    0    -1  
 $EndComp
-Text Label 6250 3400 0    50   ~ 0
+Text Label 6250 3500 0    50   ~ 0
 GND
 Wire Wire Line
 	6450 3400 6250 3400
 Wire Wire Line
 	6450 3500 6250 3500
-Text Label 6250 3500 0    50   ~ 0
+Text Label 6250 3400 0    50   ~ 0
 +10V
-Text Label 6100 2000 0    50   ~ 0
+Text Label 6100 2100 0    50   ~ 0
 GND
 Text Label 6000 2900 0    50   ~ 0
 GND
@@ -98,59 +98,57 @@ GND
 $Comp
 L Device:R R1
 U 1 1 635BEEBD
-P 5300 1650
-F 0 "R1" H 5370 1696 50  0000 L CNN
-F 1 "47" H 5370 1605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5230 1650 50  0001 C CNN
-F 3 "~" H 5300 1650 50  0001 C CNN
-	1    5300 1650
+P 5300 1750
+F 0 "R1" H 5370 1796 50  0000 L CNN
+F 1 "47" H 5370 1705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5230 1750 50  0001 C CNN
+F 3 "~" H 5300 1750 50  0001 C CNN
+	1    5300 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R2
 U 1 1 635BF84A
-P 5300 2100
-F 0 "R2" H 5370 2146 50  0000 L CNN
-F 1 "47" H 5370 2055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5230 2100 50  0001 C CNN
-F 3 "~" H 5300 2100 50  0001 C CNN
-	1    5300 2100
+P 5300 2200
+F 0 "R2" H 5370 2246 50  0000 L CNN
+F 1 "47" H 5370 2155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5230 2200 50  0001 C CNN
+F 3 "~" H 5300 2200 50  0001 C CNN
+	1    5300 2200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 1800 5300 1900
+	5300 1900 5300 2000
 Wire Wire Line
-	5300 1900 5700 1900
-Connection ~ 5300 1900
+	5300 2000 5700 2000
+Connection ~ 5300 2000
 Wire Wire Line
-	5300 1900 5300 1950
+	5300 2000 5300 2050
 $Comp
 L Device:R R3
 U 1 1 635C0BB3
-P 5850 1900
-F 0 "R3" V 5643 1900 50  0000 C CNN
-F 1 "82" V 5734 1900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5780 1900 50  0001 C CNN
-F 3 "~" H 5850 1900 50  0001 C CNN
-	1    5850 1900
+P 5850 2000
+F 0 "R3" V 5643 2000 50  0000 C CNN
+F 1 "82" V 5734 2000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5780 2000 50  0001 C CNN
+F 3 "~" H 5850 2000 50  0001 C CNN
+	1    5850 2000
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6000 1900 6450 1900
 $Comp
 L power:GND #PWR0105
 U 1 1 635C6FBB
-P 5300 2250
-F 0 "#PWR0105" H 5300 2000 50  0001 C CNN
-F 1 "GND" H 5305 2077 50  0000 C CNN
-F 2 "" H 5300 2250 50  0001 C CNN
-F 3 "" H 5300 2250 50  0001 C CNN
-	1    5300 2250
+P 5300 2350
+F 0 "#PWR0105" H 5300 2100 50  0001 C CNN
+F 1 "GND" H 5305 2177 50  0000 C CNN
+F 2 "" H 5300 2350 50  0001 C CNN
+F 3 "" H 5300 2350 50  0001 C CNN
+	1    5300 2350
 	1    0    0    -1  
 $EndComp
 Text Label 6100 1700 0    50   ~ 0
 +5V
-Text Label 6100 1600 0    50   ~ 0
+Text Label 6100 1900 0    50   ~ 0
 D3-OpIn
 $Comp
 L power:GND #PWR0107
@@ -337,7 +335,7 @@ U 1 1 635EE936
 P 5950 4850
 F 0 "J4" H 5978 4826 50  0000 L CNN
 F 1 "Brake Module" H 5978 4735 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-02A1_2x01_P4.20mm_Horizontal" H 5950 4850 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal" H 5950 4850 50  0001 C CNN
 F 3 "~" H 5950 4850 50  0001 C CNN
 	1    5950 4850
 	1    0    0    -1  
@@ -368,11 +366,11 @@ Text Label 3250 1050 0    50   ~ 0
 Text Label 3300 1250 0    50   ~ 0
 +5V
 Wire Wire Line
-	5300 1500 5300 1400
-Text Label 5100 1400 0    50   ~ 0
+	5300 1600 5300 1500
+Text Label 5100 1500 0    50   ~ 0
 +3.3V
 Wire Wire Line
-	5100 1400 5300 1400
+	5100 1500 5300 1500
 NoConn ~ 2450 1950
 Wire Wire Line
 	2450 2050 2150 2050
@@ -390,8 +388,6 @@ Wire Wire Line
 	6100 1700 6450 1700
 Wire Wire Line
 	6100 1800 6450 1800
-Wire Wire Line
-	6100 2000 6450 2000
 Wire Wire Line
 	3450 2850 3800 2850
 Wire Wire Line
@@ -414,7 +410,7 @@ U 1 1 63CD80FB
 P 6650 4000
 F 0 "J5" H 6678 3976 50  0000 L CNN
 F 1 "I2C" H 6678 3885 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-02A1_2x01_P4.20mm_Horizontal" H 6650 4000 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal" H 6650 4000 50  0001 C CNN
 F 3 "~" H 6650 4000 50  0001 C CNN
 	1    6650 4000
 	1    0    0    -1  
@@ -423,9 +419,9 @@ Wire Wire Line
 	6450 4000 6150 4000
 Wire Wire Line
 	6450 4100 6150 4100
-Text Label 6150 4000 0    50   ~ 0
-I2C-SDA
 Text Label 6150 4100 0    50   ~ 0
+I2C-SDA
+Text Label 6150 4000 0    50   ~ 0
 I2C-SCL
 $Comp
 L Connector:Conn_01x04_Female J3
@@ -433,7 +429,7 @@ U 1 1 63D66603
 P 6650 2800
 F 0 "J3" H 6678 2776 50  0000 L CNN
 F 1 "Force Sensor" H 6678 2685 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-04A1_2x02_P4.20mm_Horizontal" H 6650 2800 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105314-xx04_2x02_P2.50mm_Horizontal" H 6650 2800 50  0001 C CNN
 F 3 "~" H 6650 2800 50  0001 C CNN
 	1    6650 2800
 	1    0    0    -1  
@@ -445,10 +441,16 @@ U 1 1 63D6B97C
 P 6650 1800
 F 0 "J1" H 6678 1776 50  0000 L CNN
 F 1 "Optical Sensor" H 6678 1685 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-06A1_2x03_P4.20mm_Horizontal" H 6650 1800 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105310-xx06_2x03_P2.50mm_Vertical" H 6650 1800 50  0001 C CNN
 F 3 "~" H 6650 1800 50  0001 C CNN
 	1    6650 1800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6450 2100
+NoConn ~ 6100 1600
+Wire Wire Line
+	6450 2100 6100 2100
+Wire Wire Line
+	6000 2000 6450 2000
+Wire Wire Line
+	6450 1900 6100 1900
 $EndSCHEMATC
