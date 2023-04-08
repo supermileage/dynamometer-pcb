@@ -1,4 +1,4 @@
-21453991094087486
+21450649629933219
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -79384,7 +79384,7 @@ Potentiometer_Vishay_148-149_Single_Vertical_1
 Potentiometer, vertical, Vishay 148-149 Single, http://www.vishay.com/docs/57040/148149.pdf
 Potentiometer vertical Vishay 148-149 Single
 0
-3
+5
 3
 Potentiometer_THT
 Potentiometer_Vishay_148E-149E_Dual_Horizontal
@@ -89571,20 +89571,6 @@ Molex_Connector_SL_01x10_Header_Horizontal
 0
 10
 10
-custom_connectors
-RotaryEncoder_Dyno
-
-
-0
-5
-5
-custom_connectors
-VISHAY_HIGH_TORQUE_POT
-
-
-0
-1
-1
 custom_connectors
 molex-sl-1x03-horizontal
 
