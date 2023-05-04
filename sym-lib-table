@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Raspberry_Pi_Pico_W_SC0918")(type "KiCad")(uri "${KIPRJMOD}/data/Raspberry_Pi_Pico_W_Kicad_Files-main/Raspberry_Pi_Pico_W_SC0918.kicad_sym")(options "")(descr ""))
   (lib (name "74HC4052_LOCAL")(type "KiCad")(uri "${KIPRJMOD}/data/74HC4052/74HC4052.kicad_sym")(options "")(descr ""))
+  (lib (name "OpAmps_LOCAL")(type "KiCad")(uri "${KIPRJMOD}/data/OpAmps/Amplifier_Operational.kicad_sym")(options "")(descr ""))
 )
