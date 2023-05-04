@@ -1,3 +1,4 @@
 (sym_lib_table
+  (version 7)
   (lib (name "Raspberry_Pi_Pico_W_SC0918")(type "KiCad")(uri "${KIPRJMOD}/data/Raspberry_Pi_Pico_W_Kicad_Files-main/Raspberry_Pi_Pico_W_SC0918.kicad_sym")(options "")(descr ""))
 )
