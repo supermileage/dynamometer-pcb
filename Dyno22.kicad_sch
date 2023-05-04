@@ -4858,7 +4858,7 @@
     (property "Value" "Demux" (at 115.57 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "74HC4052PW-footprints:TSSOP16_5P1X4P5_NEX" (at 115.57 106.68 0)
+    (property "Footprint" "74HC4052PW-footprints_LOCAL:TSSOP16_5P1X4P5_NEX" (at 115.57 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 115.57 106.68 0)
